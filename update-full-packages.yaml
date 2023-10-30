@@ -1,5 +1,5 @@
 ---
-- hosts: [ProxMox]
+- hosts: all
   name: update apt
 
   tasks:
