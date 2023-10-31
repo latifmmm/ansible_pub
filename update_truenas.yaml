@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  gather_facts: false
+
+  vars:
+    sites:
+      - ip: truenas.mabdellatif.net
+        token: 1-T1nUNdK3vfrs2c56Q4mAqT729ReeVZwXLwNgNpWJXquzLnv7ZTTytwvScGeb54Bd
+        validate_certs: false
+
+  tasks:
+    - name: update-truenas-api
+      include_tasks: truenas_task.yml
+      loop: '{{ sites }}'
