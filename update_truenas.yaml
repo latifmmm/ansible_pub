@@ -10,5 +10,5 @@
 
   tasks:
     - name: update-truenas-api
-      include_tasks: truenas_task.yml
+      include_tasks: truenas_task.yaml
       loop: '{{ sites }}'
