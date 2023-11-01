@@ -5,7 +5,7 @@
   vars:
     sites:
       - ip: truenas.mabdellatif.net
-        token: 1-T1nUNdK3vfrs2c56Q4mAqT729ReeVZwXLwNgNpWJXquzLnv7ZTTytwvScGeb54Bd
+        token: 1-a7n54o9FmuOpAMibzv4Y7wtCp3MilLafZlRUiZc3mV38SjFxyZi8K8eAhuonTfAz
         validate_certs: false
 
   tasks:
